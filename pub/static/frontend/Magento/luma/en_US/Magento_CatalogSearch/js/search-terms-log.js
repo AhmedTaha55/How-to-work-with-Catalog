@@ -1,0 +1,1 @@
+/home/ahmed/projects/my-app/vendor/magento/module-catalog-search/view/frontend/web/js/search-terms-log.js

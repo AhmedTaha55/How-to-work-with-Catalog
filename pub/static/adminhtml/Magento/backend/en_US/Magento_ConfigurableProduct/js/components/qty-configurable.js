@@ -1,0 +1,1 @@
+/home/ahmed/projects/my-app/vendor/magento/module-configurable-product/view/adminhtml/web/js/components/qty-configurable.js

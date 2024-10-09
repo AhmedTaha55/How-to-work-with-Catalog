@@ -1,0 +1,1 @@
+/home/ahmed/projects/my-app/vendor/magento/module-page-builder/view/adminhtml/web/js/system/config/switch-attribute-type.js

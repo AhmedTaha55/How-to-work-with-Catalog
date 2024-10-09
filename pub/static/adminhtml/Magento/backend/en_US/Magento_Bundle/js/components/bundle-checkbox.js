@@ -1,0 +1,1 @@
+/home/ahmed/projects/my-app/vendor/magento/module-bundle/view/adminhtml/web/js/components/bundle-checkbox.js

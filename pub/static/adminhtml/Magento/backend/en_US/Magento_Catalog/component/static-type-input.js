@@ -1,0 +1,1 @@
+/home/ahmed/projects/my-app/vendor/magento/module-catalog/view/adminhtml/web/component/static-type-input.js

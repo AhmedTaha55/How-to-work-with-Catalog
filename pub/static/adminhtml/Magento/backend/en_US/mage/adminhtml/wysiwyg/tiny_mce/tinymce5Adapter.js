@@ -1,0 +1,1 @@
+/home/ahmed/projects/my-app/lib/web/mage/adminhtml/wysiwyg/tiny_mce/tinymce5Adapter.js
