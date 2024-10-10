@@ -67,7 +67,7 @@ class AddSimpleProduct implements DataPatchInterface
      * @var EavSetup
      */
     protected EavSetup $eavSetup;
-    
+
     /**
      * @var CategoryLinkManagementInterface
      */
@@ -87,7 +87,7 @@ class AddSimpleProduct implements DataPatchInterface
      * @param SourceItemsSaveInterface $sourceItemsSaveInterface
      * @param State $appState
      * @param StoreManagerInterface $storeManager
-		 * @param EavSetup $eavSetup
+     * @param EavSetup $eavSetup
      * @param CategoryLinkManagementInterface $categoryLink
      */
     public function __construct(
@@ -96,14 +96,14 @@ class AddSimpleProduct implements DataPatchInterface
         State $appState,
         StoreManagerInterface $storeManager,
         EavSetup $eavSetup,
-				SourceItemInterfaceFactory $sourceItemFactory,
+        SourceItemInterfaceFactory $sourceItemFactory,
         SourceItemsSaveInterface $sourceItemsSaveInterface,
-				CategoryLinkManagementInterface $categoryLink
+        CategoryLinkManagementInterface $categoryLink
     ) {
         $this->appState = $appState;
         $this->productInterfaceFactory = $productInterfaceFactory;
         $this->productRepository = $productRepository;
-				$this->eavSetup = $eavSetup;
+        $this->eavSetup = $eavSetup;
         $this->storeManager = $storeManager;
         $this->sourceItemFactory = $sourceItemFactory;
         $this->sourceItemsSaveInterface = $sourceItemsSaveInterface;
@@ -135,11 +135,11 @@ class AddSimpleProduct implements DataPatchInterface
 
         $attributeSetId = $this->eavSetup->getAttributeSetId(Product::ENTITY, 'Default');
         $websiteIDs = [$this->storeManager->getStore()->getWebsiteId()];
-				$product->setTypeId(Type::TYPE_SIMPLE)
+        $product->setTypeId(Type::TYPE_SIMPLE)
             ->setWebsiteIds($websiteIDs)
             ->setAttributeSetId($attributeSetId)
             ->setName('Grip Trainer')
-						->setUrlKey('griptrainer')
+            ->setUrlKey('griptrainer')
             ->setSku('grip-trainer')
             ->setPrice(9.99)
             ->setVisibility(Visibility::VISIBILITY_BOTH)
