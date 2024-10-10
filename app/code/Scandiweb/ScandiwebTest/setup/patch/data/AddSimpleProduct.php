@@ -1,12 +1,12 @@
 <?php
 /**
- * @category    Example
- * @package     Example_Migration
- * @author      First Aizsils <info@scandiweb.com>
- * @copyright   Copyright (c) 2021 Scandiweb, Ltd (https://scandiweb.com)
+ * @category    Scandiweb
+ * @package     Scandiweb_ScandiwebTest
+ * @author      Ahmed Taha <ahmed.taha@scandiweb.com>
+ * @copyright   Copyright (c) 2024 Scandiweb, Ltd (https://scandiweb.com)
  */
 
-namespace Example\Migration\Setup\Patch\Data;
+namespace Scandiweb\ScandiwebTest\Setup\Patch\Data;
 
 use Magento\Catalog\Api\CategoryLinkManagementInterface;
 use Magento\Catalog\Api\Data\ProductInterfaceFactory;
