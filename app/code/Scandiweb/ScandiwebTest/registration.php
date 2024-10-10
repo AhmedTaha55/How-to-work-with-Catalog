@@ -1,9 +1,9 @@
 <?php
 
-use \Magento\Framework\Component\componentRegistrar;
+use Magento\Framework\Component\ComponentRegistrar;
 
-componentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+ComponentRegistrar::register(
+    ComponentRegistrar::MODULE,
     'Scandiweb_ScandiwebTest',
     __DIR__
 );
